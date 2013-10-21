@@ -320,4 +320,4 @@
  */
         date_default_timezone_set('America/Sao_Paulo');
 
-        session_save_path("/home/users/web/b1560/moo.nteos/cgi-bin/tmp");       
+        session_save_path("/home/lurch/public_html/cgi-bin/tmp");       
