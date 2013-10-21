@@ -1,0 +1,47 @@
+#content .home {
+    text-align: center;
+    vertical-align: top;
+}
+.mensagem, .selecione-instituicao {
+    border: 1px solid #666666;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 16px;
+    text-align: left;
+    vertical-align: top;
+    width: 400px;
+}
+legend {
+    color: #EE3322;
+    font-size: 160%;
+    font-weight: bold;
+}
+.mensagem legend, .selecione-instituicao legend {
+    background-color: #666666;
+    background-position: center center;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 5px 10px 7px;
+    width: 100%;
+}
+.mensagem form, .selecione-instituicao form {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.mensagem form fieldset, .selecione-instituicao form fieldset {
+    border: medium none;
+    display: block;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+}
+.mensagem form div, .selecione-instituicao form div {
+    margin-bottom: 0;
+}

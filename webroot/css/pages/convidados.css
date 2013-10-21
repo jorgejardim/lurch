@@ -1,0 +1,54 @@
+#ConvidadoNome, #ConvidadoEmail {
+    width: 400px;
+}
+div.convidados {
+    display: inline-block;
+    width: 710px;
+}
+.site-form legend {
+    font-size: 21px !important;
+    color: #EC4646;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+.site-form h2 {
+    font-size: 26px !important;
+    margin: -10px -2px 5px;
+    padding: 0 0 14px !important;
+}
+.site-form hr {
+    background-color: #CCCCCC !important;
+    border: 1px solid #CCCCCC !important;
+    margin: 25px 0 30px !important;
+}
+
+div.col-info {
+    display: inline-block;
+    width: 470px;
+}
+div.site-view.col-info dl {
+    width: 470px;
+}
+.col-confirme {
+    background-color: #F2F2F2;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    width: 414px !important;
+}
+div.site-form.col-confirme input[type="submit"] {
+    background-color: #EC4646;
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    margin-bottom: 3px;
+    margin-top: 0;
+    padding: 6px 15px;
+    text-transform: uppercase;
+}
+legend a {
+    color: #E07A00 !important;
+    font-size: 14px;
+    margin-left: 13px;
+}

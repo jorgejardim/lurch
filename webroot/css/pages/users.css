@@ -1,0 +1,12 @@
+#UserName, #UserEmail, #UsersAddressAddress {
+    width: 400px;
+}
+#UsersAddressAddress {
+    width: 500px;
+}
+#UsersAddressNumber {
+    width: 50px;
+}
+#UserPassword, #UserPasswordConfirmation {
+    width: 100px;
+}

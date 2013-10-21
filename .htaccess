@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    #WWW  
+    #RewriteCond %{HTTP_HOST} !^localhost
+    #RewriteRule ^(.*)$ http://localhost/$1 [R=301,L]
+    #RewriteCond %{HTTP_HOST} !^www\.
+    #RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+    #CAKE
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+ </IfModule>

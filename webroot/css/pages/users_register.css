@@ -1,0 +1,60 @@
+.site-form {
+    display: block;
+}
+
+.site-form form {
+    clear: both;
+    left: 50%;
+    margin-left: -125px;
+    margin-right: 0;
+    padding: 0;
+    position: relative;
+    width: 250px;
+}
+
+#content h2 {
+    display: inline-block;
+    left: 50%;
+    margin-left: -195px;
+    margin-right: 0;
+    position: relative;
+    width: 340px;
+}
+div.actions {
+    clear: both;
+    float: none;
+    left: 50%;
+    margin-left: -125px;
+    margin-right: 0;
+    padding: 5px 0;
+    position: relative;
+    width: 250px;
+}
+a.remember {
+    clear: both;
+    display: inline-block;
+    left: auto;
+    margin-left: auto;
+    margin-right: 102px;
+    padding: 4px 0;
+    position: inherit;
+    width: auto;  
+}
+a.register {
+    clear: both;
+    display: inline-block;
+    left: auto;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 4px;
+    position: inherit;
+    width: auto;  
+    margin-top: 30px;
+}
+#UserName, #UserEmail, #UsersAddressAddress {
+    width: 400px !important;
+}
+.site-form form {
+    margin-left: -200px !important;
+    width: 400px !important;
+}
