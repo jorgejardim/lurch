@@ -29,21 +29,17 @@ class AppController extends Controller {
                 'foreignKey'   => 'group_id'
             )
         ),
-        'Email' => array('from' => 'Suporte <suporte@festaonline.net>',
+        'Email' => array('from' => 'Suporte <suporte@lurch.com.br>',
                 'sendAs' => 'both',
                 'delivery' => 'smtp',
                 'smtpOptions' => array(
                     'timeout'  => '30',
-
                     //'port'     => '465',
                     //'host'     => 'ssl://s8-dallas.accountservergroup.com',
                     //'username' => 'suporte@festaonline.net',
                     //'password' => 't4r5zjj',
-
                     'port'     => '587',
                     'host'     => 'forward-in.splio.fr',
-                    //'username' => 'suporte@festaonline.net',
-                    //'password' => 't4r5zjj',
                 )),
         'Enum',
         'Commons',
