@@ -58,9 +58,9 @@
             } elseif($_SERVER['HTTP_HOST']=='localhost') {
                 define('CAKE_CORE_INCLUDE_PATH', DS . 'var' . DS . 'www' . DS . 'codigos' . DS . 'cakephp');
 
-            //Servidor Lunacloud - SistemaFrames    
+            //Servidor Lunacloud - SistemaFrames
             } else {
-                define('CAKE_CORE_INCLUDE_PATH', DS . 'home' . DS . 'festol' . DS . 'cakephp');
+                define('CAKE_CORE_INCLUDE_PATH', DS . 'home' . DS . 'lurch' . DS . 'cakephp');
             }
         }
 

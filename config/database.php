@@ -76,52 +76,52 @@ class DATABASE_CONFIG {
 	var $remoto = array(
 			'driver' => 'mysql',
 			'persistent' => false,
-			'host' => 'nteos.fatcowmysql.com',
-			'login' => 'lurch',
+			'host' => 'lurch.com.br',
+			'login' => 'lurch_site',
 			'password' => 't4r5zjj',
-			'database' => 'lurch',
+			'database' => 'lurch_site',
 			'prefix' => '',
 	);
-	
+
 	var $developer = array(
 			'driver' => 'mysql',
 			'persistent' => false,
-			'host' => 'nteos.fatcowmysql.com',
-			'login' => 'lurch',
+			'host' => 'lurch.com.br',
+			'login' => 'lurch_site',
 			'password' => 't4r5zjj',
-			'database' => 'lurch',
+			'database' => 'lurch_site',
 			'prefix' => '',
-	);	
+	);
 
 	var $test = array(
 			'driver' => 'mysql',
 			'persistent' => false,
-			'host' => 'localhost',
-			'login' => 'root',
+			'host' => 'lurch.com.br',
+			'login' => 'lurch_site',
 			'password' => 't4r5zjj',
-			'database' => 'sef',
+			'database' => 'lurch_site',
 			'prefix' => '',
 	);
 
 	var $production = array(
 			'driver' => 'mysql',
 			'persistent' => false,
-			'host' => 'nteos.fatcowmysql.com',
-			'login' => 'lurch',
+			'host' => 'lurch.com.br',
+			'login' => 'lurch_site',
 			'password' => 't4r5zjj',
-			'database' => 'lurch',
+			'database' => 'lurch_site',
 			'prefix' => '',
 	);
-	
+
 	var $homologacao = array(
 			'driver' => 'mysql',
 			'persistent' => false,
-			'host' => 'festaonline.net',
-			'login' => 'festol_lurch',
+			'host' => 'lurch.com.br',
+			'login' => 'lurch_site',
 			'password' => 't4r5zjj',
-			'database' => 'festol_lurch',
+			'database' => 'lurch_site',
 			'prefix' => '',
-	);	
+	);
 
 	var $default;
 
