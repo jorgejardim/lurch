@@ -58,8 +58,8 @@ class TestesController extends AppController {
         $this->autoRender = false;
 
         $this->Email->from = 'suporte@festaonline.net';
-        $this->Email->to = 'jorge@jorgejardim.com.br';
-        //$this->Email->bcc = 'jorge.testes@gmail.com, jorge@conteudodinamico.com.br';
+        $this->Email->to = 'jorge@conteudodinamico.com.br';
+        $this->Email->bcc = array('jorge.testes@gmail.com', 'jorge@conteudodinamico.com.br');
         $this->Email->subject = 'Teste de envio de Emails - '.date('H:i:s');
         $this->Email->template = 'default';
         $this->set('conteudo', 'Teste Email Transacional Servidor Producao: '.date('H:i:s'));
